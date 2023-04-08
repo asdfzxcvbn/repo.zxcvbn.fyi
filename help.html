@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <body>
+    <pre id="json-data"></pre>
     <script>
       fetch('repo.json')
         .then(response => response.json())
         .then(data => {
-          console.log(data);
+          document.getElementById('json-data').textContent = JSON.stringify(data, null, 2);
         })
         .catch(error => console.error(error));
     </script>
-  </head>
+  </body>
 </html>
