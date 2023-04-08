@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=help.html" />
-  </head>
   <body>
-    <p>click <a href="help.html">here</a>.</p>
+    <pre id="json-data"></pre>
+    <script>
+      fetch('repo.json')
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('json-data').textContent = JSON.stringify(data, null, 2);
+        })
+        .catch(error => console.error(error));
+    </script>
   </body>
 </html>
