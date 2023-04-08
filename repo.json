@@ -10,15 +10,38 @@
         {
             "name": "Spotify",
             "bundleIdentifier": "com.spotify.client",
+            "version": "8.5.60",
+            "versionDate": "2023-04-08",
+            "size": 42726216,
             "developerName": "zxcvbn",
             "subtitle": "Spotify with free Premium",
             "localizedDescription": "Spotify v8.5.60 with Spotilife v1.8 and Sposify v8.5.52! Premium should be unlocked for every account whether new or not, and the \"Very High\" audio quality is working as well.",
             "iconURL": "https://cdn.jsdelivr.net/gh/asdfzxcvbn/repo.zxcvbn.fyi/icons/spotify.png",
-            "version": "8.5.60",
-            "size": 42726216,
-            "date": "2023-04-08",
-            "downloadURL": "https://cdn.discordapp.com/attachments/1094143830112088094/1094144760459055104/Sposify_8.5.60_zxcvbn.ipa"
-
+            "downloadURL": "https://store10.gofile.io/download/direct/7edfd5d2-d584-45ea-be1a-d94fcfbfb7f8/Sposify%2B%2B_8.5.60_zxcvbn.ipa"
+        },
+        {
+            "name": "Canary",
+            "bundleIdentifier": "Mailroom.Canary-iOS",
+            "version": "3.92",
+            "versionDate": "2023-04-08",
+            "size": 53837394,
+            "developerName": "zxcvbn",
+            "subtitle": "Canary Mail Pro",
+            "localizedDescription": "Canary Mail v3.92 with free Pro. Office365 currently does not work.",
+            "iconURL": "https://cdn.jsdelivr.net/gh/asdfzxcvbn/repo.zxcvbn.fyi/icons/canary.png",
+            "downloadURL": "https://store10.gofile.io/download/direct/a242b02e-e6bb-4ee8-acc8-ad6e93847729/CanaryPro-3.92-zxcvbn.ipa"
+        },
+        {
+            "name": "YouTube Music",
+            "bundleIdentifier": "com.google.ios.youtubemusic",
+            "version": "5.49.2",
+            "versionDate": "2023-04-08",
+            "size": 68999074,
+            "developerName": "zxcvbn",
+            "subtitle": "YouTube Music Premium",
+            "localizedDescription": "YouTube Music v5.49.2 with free Premium.",
+            "iconURL": "https://cdn.jsdelivr.net/gh/asdfzxcvbn/repo.zxcvbn.fyi/icons/ytmusic.png",
+            "downloadURL": "https://store10.gofile.io/download/direct/7cdc2d7b-afb5-44c9-9690-7926832ef70b/YTMusic_5.49.2_zxcvbn.ipa"
         }
     ]
   }
